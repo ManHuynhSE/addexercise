@@ -7,14 +7,12 @@ import UseReducer from "./components/react-hooks/UseReducer";
 import UseRef from "./components/react-hooks/UseRef";
 import UseMemo from "./components/react-hooks/UseMemo";
 import UseCallback from "./components/react-hooks/UseCallback";
+import Fetch from "./components/working-api/fetch";
+import Async from "./components/working-api/Async";
 import "./App.css";
 
 function App() {
   // const [count, setCount] = useState(0);
-
-  // fetch("https://6985995f6964f10bf253c856.mockapi.io/data/1")
-  //   .then((res) => res.json())
-  //   .then((data) => console.log(data));
 
   return (
     <>
@@ -28,8 +26,11 @@ function App() {
       <UseRef></UseRef> */}
       {/* <h2>UseMemo</h2>
       <UseMemo></UseMemo> */}
-      <h2>UseCallback</h2>
-      <UseCallback></UseCallback>
+      {/* <h2>UseCallback</h2>
+      <UseCallback></UseCallback> */}
+
+      {/* <Fetch></Fetch> */}
+      <Async></Async>
     </>
   );
 }

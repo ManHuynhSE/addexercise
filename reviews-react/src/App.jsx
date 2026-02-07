@@ -9,6 +9,7 @@ import UseMemo from "./components/react-hooks/UseMemo";
 import UseCallback from "./components/react-hooks/UseCallback";
 import Fetch from "./components/working-api/fetch";
 import Async from "./components/working-api/Async";
+import Axios from "./components/working-api/Axios";
 import "./App.css";
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
       <UseCallback></UseCallback> */}
 
       {/* <Fetch></Fetch> */}
-      <Async></Async>
+      {/* <Async></Async> */}
+      <Axios></Axios>
     </>
   );
 }
